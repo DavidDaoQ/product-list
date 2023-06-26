@@ -1,0 +1,27 @@
+.container {
+  width: 250px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.product {
+  /* CSS cho sản phẩm */
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 20px;
+  max-width: 300px;
+  border-radius: 10px;
+}
+img {
+  width: 300px;
+  height: auto;
+}
+.product:hover {
+  /* CSS cho hover */
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.product {
+  /* CSS cho animation */
+  transition: background-color 0.3s ease;
+}
